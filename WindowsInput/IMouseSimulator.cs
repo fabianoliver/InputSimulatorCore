@@ -35,6 +35,16 @@ namespace WindowsInput
         IMouseSimulator MoveMouseToPositionOnVirtualDesktop(double absoluteX, double absoluteY);
 
         /// <summary>
+        /// Simulates a mouse middle button down gesture.
+        /// </summary>
+        IMouseSimulator MiddleButtonDown();
+
+        /// <summary>
+        /// Simulates a mouse middle button up gesture.
+        /// </summary>
+        IMouseSimulator MiddleButtonUp();
+        
+        /// <summary>
         /// Simulates a mouse left button down gesture.
         /// </summary>
         IMouseSimulator LeftButtonDown();
